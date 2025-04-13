@@ -25,7 +25,7 @@ const Hero = () => {
 
     
   return (
-    <div className='w-full h-screen flex flex-col justify-center items-center isolate'>
+    <div className='w-full h-screen flex flex-col justify-center items-center isolate relative z-10'>
       <Navbar />
       <div className='flex flex-col md:items-center items-start xl:gap-y-10 gap-y-3 
       xl:mb-0 md:mb-20 ms-0 relative'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Services from './components/Services';
 import { ThemeProvider } from './context/ThemeContext';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     dark:text-yellow-500 transition-colors duration-500'>
     <Navbar />
     <Hero />
+    <Services />
   </div>
     </ThemeProvider>
   )
