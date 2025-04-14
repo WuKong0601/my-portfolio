@@ -27,9 +27,9 @@ const Services = () => {
     }
 
     return (
-        <div className='min-h-screen flex flex-col justify-center items-center px-4 xl:py-0 py-10'>
+        <div id='services' className='min-h-screen flex flex-col justify-center items-center px-4 xl:py-0 py-10'>
             <h2 className='text-4xl font-light mb-32 xl:mt-0 mt-12'>Skill-set</h2>
-            <div className='w-full xl:w-[900px] lg:w-[800px] md:w-[600px] grid lg:grid-cols-3 
+            <div className='w-full xl:w-[900px] lg:w-[850px] md:w-[600px] grid lg:grid-cols-3 
             grid-cols-1 lg:gap-12 gap-32 xl:mb-0 mb-16'>
                 {skillCards.map((card, index) => (
                     <div

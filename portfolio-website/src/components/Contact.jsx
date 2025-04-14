@@ -3,7 +3,7 @@ import NavigationCircles from './NavigationCircles'
 
 const Contact = () => {
   return (
-    <div className='h-screen flex flex-col justify-center items-center'>
+    <div id='contact' className='h-screen flex flex-col justify-center items-center'>
         <h2 className='text-4xl font-light md:mb-32 mb-24'>Connect with me</h2>
         <form className='flex flex-col lg:space-y-12 space-y-8'>
             <input
